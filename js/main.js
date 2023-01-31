@@ -50,9 +50,6 @@ const answersDB = () => [
   {quostion: "Búgingi kúnniǹ talabınan kelip shıǵıp, redakciya tárepinen jazılatuǵın maqala túri qalay ataladı?", answer: "bas maqala"},
   {quostion: "Tеlеgrаmmа, mаǵlıwmаtnаmа, аrzа, isеnim хаt, dаǵаzаlаr qaysı tekst túrine кirеdi?", answer: "miкrоtекst"},
   {quostion: "Reportaj sózi qaysı tilden alınǵan hám qanday máni aǹlatadı?", answer: "ingliz, jetkeriw"},
-  {quostion: "Soraw", answer: "Juwap"},
-  {quostion: "Soraw", answer: "Juwap"},
-  {quostion: "Soraw", answer: "Juwap"},
 ];
 
 answersDB().forEach((item, index) => {
