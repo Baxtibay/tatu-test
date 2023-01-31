@@ -81,3 +81,9 @@ img {
   max-width: 550px;
   margin-left: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .result {
+    display: none;
+  }
+}
