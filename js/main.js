@@ -13,7 +13,8 @@ answersDB().forEach((item, index) => {
   const container = document.createElement('div')
   container.innerHTML = `
 
-      <ul class="test-list">${index + 1}. ${item.quostion}</legend>
+      <ul class="test-list">
+      <span class="quostion-text">${index + 1}. ${item.quostion}</span>
             <li class="test-item">
               <label>
                 <input type="radio" name="${index}" checked> ${item.a}

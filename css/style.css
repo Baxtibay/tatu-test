@@ -23,7 +23,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: rgb(219, 237, 246);
@@ -101,6 +101,8 @@ img {
 }
 
 .test-list {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -108,6 +110,13 @@ img {
   color: #666;
   border-top: 2px solid #888;
   background-color: var(--white-color);
+}
+
+.quostion-text {
+  flex-grow: 1;
+  font-size: 18px;
+  width: 100%;
+  border-bottom: 1px solid #999;
 }
 
 .test-item {
