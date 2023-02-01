@@ -1,7 +1,7 @@
 /* GLOBAL */
 :root {
   --standard-color: #03a9f4;
-  --bg-color: rgb(164, 161, 161);
+  --bg-color: rgb(226, 220, 220);
   --white-color: #fff;
 }
 
@@ -26,7 +26,7 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: rgb(202, 226, 237);
+  background-color: rgb(219, 237, 246);
   color: #000;
 }
 
@@ -43,7 +43,7 @@ img {
   height: 50px;
   border-radius: 50%;
   border: none;
-  color: #fff;
+  color: #888;
   background-color: var(--bg-color);
 }
 
@@ -52,6 +52,7 @@ img {
 }
 
 .active {
+  color: #fff;
   background-color: var(--standard-color);
 }
 
