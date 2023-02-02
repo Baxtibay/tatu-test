@@ -84,6 +84,152 @@ const answersDB = () => [
   {quostion: "Elektr toǵı deregin 5 Ω lı qarsılıqqa jalǵaǵanda shınjırdaǵı tok kúshi 5 A ge, 2 Ω lı qarsılıqqa jalǵanǵanda shınjırdaǵı tok kúshi 8 A ge teń boldı. Derektiń ishki qarsılıǵın hám EQK in tabıń", a: "3Ω; 40 V", b: "3Ω; 60 V", c: "3Ω; 20 V", d: "4Ω; 50 V"},
   {quostion: "Elektr maydanına jaylastırılǵan zat (ortalıq) atomları (molekulaları) elektron qabıǵınıń elektr maydanı tásirinde deformaciyalanadı. Nátiyjede atomlar (molekulalar) da oń hám teris zaryad orayları ústi-ústine túspeydi.", a: "Dielektriktiń polyarizaciyası", b: "Zaryadlardıń saqlanıw nızamı", c: "Elektr maydan kernewliligi", d: "Elektr maydanınıń kúsh sızıqları"},
   {quostion: "Eger zaryadlanǵan eki parallel plastinka arasındaǵı aralıq 12 sm, potenciallar ayırması 180 V bolsa, plastinkalar arasındaǵı maydan kernewliligin anıqlań.", a: "1500 V/m", b: "1505V/m", c: "1700 V/m", d: "1300 V/m"},
+  {quostion: "Eki mashina tuwrı jolda bir baǵıtta qozǵalmaqta. Eger siz OX kósherin mashinalardıń qozǵalıs baǵıtı boyınsha júrgizgen bolsańız, onda OX kósheri boyınsha avtomobiller tezliginiń proyekciyaları qanday boladı?", a: "durisjuwap", b: "juwap", c: "juwap", d: "juwap"},
+  {quostion: "soraw", a: "ekewi de oń", b: "ekewi de keri", c: "birinshisi - keri, ekinshisi - oń", d: "birinshisi - oń, ekinshisi – ker"},
+  {quostion: "Vertolyot 30 km tuwrı sızıq boylap ushtı, keyininen 90 gradus múyesh astında burılıp, taǵı 40 km aralıqtı basıp ótti. vertolyot basıp ótken jol:", a: "70 km", b: "50 km", c: "10km", d: "0"},
+  {quostion: "Avtomobil tormozlaw baslanǵanınan 10 sekundtan keyin 0,5 m/s2 tezleniw menen tormozlanıwda qanday tezlikke erisedi, eger onıń dáslepki tezligi 20m/s bolsa?", a: "25 m/s", b: "20 m/s", c: "15 m/s", d: "10 m/s"},
+  {quostion: "4.Radiusı 9 sm bolǵan dóngelektiń shetindegi noqattıń sızıqlı tezligi dóngelek orayınan 3 sm aralıqta jaylasqan noqattıń sızıqlı tezliginen neshe ret úlken ekenligin anıqlań.", a: "3 ret", b: "2 ret", c: "1.5 ret", d: "1 ret"},
+  {quostion: "Eki kishi dene radiusı 0,5 m hám bir noqat bolǵan sheńber boylap bir tegis háreketlene baslaydı. Bir deneniń háreket dáwiri 1 s, ekinshisi bolsa 2 s. Háreket baslanǵanınan keyin 1 sekunddan keyin olar arasındaǵı aralıqtı anıqlań.", a: "1 m", b: "0,5π m", c: "0,5 m", d: "0,25π m"},
+  {quostion: "Deneniń sheńber boylap aylanıw dáwiri 3 ret artadı. Orayǵa baǵdarlanǵan tezleniw qanday hám neshe ret ózgergenlıgin anıqlań.", a: "9 ret kemeydi", b: "3 retke asqan", c: "3 ret kemeydi", d: "9 retke asqan"},
+  {quostion: "Jasalma joldastıń jer átirapında aylanıw tezligi 7,8 km/s. Jasalma joldastıń jerden biyikligi 320 km. Eger jerdiń radiusı 6370 km dep esaplansa, jasalma joldastıń aylanıw dáwirin anıqlań.", a: "1,5", b: "1,25", c: "1,2", d: "1,15"},
+  {quostion: "Háreketleniwshi noqattı háreketke keltiriw...dep ataladı.", a: "...noqattıń dáslepki jaǵdayın aqırǵı pozitsiyasi menen baylanıstıratuǵın baǵıtlanǵan tuwrı sızıq segmenti;", b: "...traektoriya uzınlıǵı", c: "...traektoriyanıń baslanǵısh noqatınan aqırına shekemgi aralıq;", d: "...berilgen saykes jazıwlar sistemasında noqat suwretleytuǵın sızıq."},
+  {quostion: "Awırlıǵı 50 g bolǵan shar 3 m biyiklikten tusip, 2 m biyiklikke sekirip shıqsa, onıń mexanik energiyası qansha J ga kemeygen?", a: "0,49 J", b: "0,049 J", c: "0,149 J", d: "0,249 J"},
+  {quostion: "Erkin túsip atırǵan deneniń kinetikalıq energiyası qaysı biyiklikte onıń potencial energiyasına teń, eger dene 10 m biyiklikten taslansa.", a: "5 m", b: "3,75 m", c: "2,5 m", d: "1,25 m"},
+  {quostion: "Massası 0,2 kg bolǵan tas 10 m/s tezlikte vertikal joqarıǵa atılgan hám tap sol jerge 8 m/s tezlik penen túsedi. Tasdıń háreketi waqtında hawa qarsılıq kúshleriniń jumısın anıqlań.", a: "(-3,6 J)", b: "1,8 J", c: "(-1,8 J)", d: "1,2 J"},
+  {quostion: "Top 2 m uzınlıqtaǵı salmaqsiz hám sozılmaytuǵın jipke asılǵan. Top vertikal tegislikte tolıq aylanıw ushın oǵan qanday minimal tezlik beriliwi kerekligin anıqlań.", a: "10 m/s", b: "8 m/s", c: "6 m/s", d: "4 m/s"},
+  {quostion: "Brusok stol beti boylap tartıladı, 3 N gorizontal kúsh qoyıladı. Bunday halda, brusok 0,5 m/s turaqlı tezlikte háreket etedi. 3 sekundta brusokqa tásir etken kúsh atqarǵan jumıstı anıqlań.", a: "4,5 J", b: "2,5 J", c: "1,8 J", d: "1,6 J"},
+  {quostion: "Betler arasındaǵı súykelisiw kúshi:", a: "Ápiwayı reaksiyaǵa hám súykelisiw koefficiyentine baylanıslı", b: "Ápiwayı reaksiyaǵa qaraǵanda kemrek", c: "Baylanıs noqatındaǵı normal reaksiyaǵa teń", d: "Ápiwayı reaksiyadan úlkenlew."},
+  {quostion: "Massası 1600 kg bolǵan avtomobildi tezleniw menen háreketlengende tartıw kabeli 2 sm ge sozılǵan. Kabeldiń qattılıǵı 80 kN/m bolsa, avtomobil háreketlenip atırǵan tezleniwdi anıqlań. Jolda avtomobil dóńgelekleriniń súykelisiw kúshine itibar bermeń.", a: "1 m/s2", b: "0,5 m/s2", c: "0,1 m/s2", d: "0,05 m/s2"},
+  {quostion: "Dene yamasa bólekshe jaqtılıq tezligine jaqın tezlikte háreket etedi. Usınıń menen birge, onıń statsionar baqlawshıǵa salıstırǵanda massası...", a: "artadı", b: "kemeyedi", c: "ózgermeydi", d: "nol"},
+  {quostion: "Tayaqtıń uzınlıǵı 10 m. Ol 0,6 c tezlikte qozǵalsa onıń uzınlıǵı qansha boladı?", a: "8", b: "6", c: "4", d: "2"},
+  {quostion: "Tayaqtıń uzınlıǵı 20 m. Ol 0,6 c tezlikte qozǵalsa onıń uzınlıǵı qansha boladı?", a: "16", b: "12", c: "10", d: "0"},
+  {quostion: "36 km/saat tezlikte háreketleniwshi massası 1 t deneniń kinetikalıq energiyası qanday?", a: "50 kJ", b: "36 kJ", c: "72 kJ", d: "25 kJ"},
+  {quostion: "72 km/saat tezlikte háreketleniwshi massası 1 t deneniń kinetikalıq energiyası qanday?", a: "200 kJ", b: "175 kJ", c: "150 kJ", d: "125 kJ"},
+  {quostion: ".Eger ideal gazdıń turaqlı konsentraciyadaǵı basımı 2 ret artsa, onıń absalyut temperaturası...", a: "2 ese artadı", b: "2 ese kemeydi", c: "4 ese artadı", d: "4 ese kemeyedi"},
+  {quostion: "Elektr zaryadining birligi ...", a: "kulon", b: "amper", c: "volt", d: "om"},
+  {quostion: "Elektr maydan kernewliliginiń birligi ...", a: "Volt/metr", b: "Amper/metr", c: "Om/metr", d: "Kulon/metr"},
+  {quostion: "Eki noqatlıq elektr zaryadları arasındaǵı aralıq 2 ret, hár eki zaryadtıń muǵdaarı bolsa 2 ret artadı. Zaryadlar arasındaǵı tásirlesiw kúshi...", a: "ózgermeydi", b: "4 ret kemeydi", c: "8 ret kemeydi", d: "16 ret kemeydi"},
+  {quostion: "egis hawa kondansatori C sıyımlılıqqa iye. Eger plastinkaları arasındaǵı aralıq 3 ret kemeytirilse, onıń sıyımlılıqı qanday ózgeredi?", a: "3 ret artadı", b: "3 ret azayadı", c: "9 ret artadı", d: " 9 ret azayadı"},
+  {quostion: "Tegis hawa kondansatori C=?", a: "q/U", b: "I/t", c: "Bqvsina", d: "F/q"},
+  {quostion: "Elektr qarsılıǵı birligi ...", a: "om", b: "amper", c: "volt", d: "kulon"},
+  {quostion: "1Om=…", a: "V/A", b: "Tl/C", c: "J/s", d: "C/V"},
+  {quostion: "Kirxgovtıń birinshi qaǵıydası:...", a: "túyinge kiretuǵın toklardıń algebralıq jıyındısı nolǵa teń", b: "túyinge kiretuǵın toklardıń algebralıq jıyındısı birge teń", c: "túyinge kiretuǵın zaryadlardıń algebralıq jıyındısı nolǵa teń", d: "túyinge kiretuǵın zaryadlardıń algebralıq jıyındısı birge teń"},
+  {quostion: "Qanday dielektrikler polyarlanǵan dep ataladı?", a: "Sırtqı elektr maydan bolmaǵanda da, oń hám teris zaryadlardıń «awırlıq orayları» sáykes túspeydi.", b: "Sırtqı elektr maydan bolmaǵanda dielektriktegi molekulalarda oń hám teris zaryadlardıń «awırlıq orayları» sáykes túsedi hám molekulalar dipol momentleri teń.", c: "Sırtqı elektr maydan bolmaǵanda dielektriktegi molekulalarda oń hám teris zaryadlardıń «awırlıq orayları» sáykes túspeydi hám dipol momentleri nolden ayrıqsha", d: "Olardıń kristall torı teris zaryadlanǵan ionlardan quralǵan."},
+  {quostion: "Polyarlanıw vektorı neni ańlatadı?", a: "Dielektriktiń birlik kólemdegi dipol momenti.", b: "Dielektrik molekulalarınıń dipol momenti.", c: "Dielektrik ishindegi elektr maydan kernewliligi hám elektr maydan kóshiw vektorı arasındaǵı baylanıs.", d: "Dielektriktiń polyarlanıw dárejesi."},
+  {quostion: "Polyarlanbaǵan molekulalar ushın polyarlanıwdıń qaysı túri xarakterli:", a: "Elektron yamasa deformaciyalı polyarlanıw", b: "Orientacion yamasa dipollı polyarlanıw", c: "Ionlı polyarlanıw", d: "Hámmesi"},
+  {quostion: "Polyarlanǵan molekulalar ushın polyarlanıwdıń qaysı túri xarakterli.", a: "Orientacion yamasa dipollı polyarlanıw", b: "Elektron yamasa deformaciyalı polyarlanıw", c: "Ionlı polyarlanıw", d: "Hámmesi "},
+  {
+    quostion: "Metallı ótkizgishlerde zaryad tasıwshılar neler esaplanadı?",
+    a: "Erkin elektronlar",
+    b: "Oń hám keri ionlar",
+    c: "juwap",
+    d: "juwap"
+  },
+  {
+    quostion: "Tok tıǵızlıǵı ushın tariyp beriń",
+    a: "Ótkizgishtiń kese kesimi birlik maydanı arqalı ótetuǵın tok kúshine san jaǵınan teń bolǵan shama.",
+    b: "Ótkizgishtiń kese kesiminen waqıt birligi ishinde ótetuǵın zaryadqa san jaǵınan teń bolǵan shama.",
+    c: "Maydan kernewliliginiń sińiriwshilikke kóbeymesine teń bolǵan skalyar shama",
+    d: "Ótkizgish birlik maydanı arqalı ótetuǵın zaryadqa teń bolǵan shama."
+  },
+  {
+    quostion: "4 s ishinde kontur arqalı magnit aǵımı 10 Vb den 2 Vb ge shekem bir tegis azayadı. Kontur daǵı induksiya EQK iniń mánisi nege teń bolǵan?",
+    a: "2 V",
+    b: "1 V",
+    c: "0,5 V",
+    d: "0,25 V"
+  },
+  {
+    quostion: "Eger maydan induksiyasın 2 ret kemeytirilse, bir tekli magnit maydanında elektron sızǵan sheńber radiusı qanday ózgeredi?",
+    a: "2 ret artadı",
+    b: "2 ret azayadı",
+    c: "4 ret azayad",
+    d: "4 ret artadı"
+  },
+  {
+    quostion: "Zaryadlanǵan bólekshe bir tekli magnit maydan kúsh sızıqlarına perpendikulyar túrde v tezlik penen háreketlenip atır. Eger tezlikti 2 ret asırılsa, bólekshediń aylanıw dáwiri qanday ózgeredi?",
+    a: "2 ret azayadı",
+    b: "4 ret azayadı",
+    c: "2 ret artadı",
+    d: "Ózgermeydi"
+  },
+  {
+    quostion: "Tok kúshi 10 A bolǵanda, induktivligi 0,2 mH li konturda qanday magnit aǵımı payda boladı?",
+    a: "2 mVb",
+    b: "1 mVb",
+    c: "0,5 mVb",
+    d: "0,25 mVb"
+  },
+  {
+    quostion: "Induktivligi 2 H bolǵan konturda, tok kúshiniń qanday mánisinde kontur arqalı magnit aǵımı 4 Wb ga teń boladı?",
+    a: "2 A",
+    b: "1 A ",
+    c: "0,5 A",
+    d: "0,25A"
+  },
+  {
+    quostion: "Bir tekli magnit maydanına α múyesh astında, turaqlı tezlik penen ushıp kirgen proton kúsh sızıqları baǵıtına salıstırǵanda qanday traektoriya boyınsha háreketlenedi?",
+    a: "Vinttárizli sızıq boylap",
+    b: "Tuwrı sızıq boylap",
+    c: "Ellips boylap",
+    d: "Sheńber boylap"
+  },
+  {
+    quostion: "Magnit maydan indukсiyasi’ni’n’ B moduli ha’m magnit maydang’a kirip barg’an maydan S ha’m indukciya vektori’ B arasi’ndag’i’ mu’yesh kosinusi’na ten’ fizikali’q shama ne dep ataladi?",
+    a: "Magnit ag’imi",
+    b: "Induktivlik",
+    c: "Magnit induksiya",
+    d: "Magnit maydan energiyasi."
+  },
+  {
+    quostion: "Qaysi’ fizikali’q shamani’n’ o’lshem birligi 1 Genri?",
+    a: "Induktivlik",
+    b: "Elektr quwatli’li’g’i’",
+    c: "O‘z-ara indukciya",
+    d: "Magnit maydan indukciyasi’"
+  },
+  {
+    quostion: "O’tkizgishlerdegi indukciya togi’ ...",
+    a: "elektronlardi’n’ ta’rtipli ha’reketi.",
+    b: "pozitronlardi’n’ ta’rtipli ha’reketi.",
+    c: "teris ionlardi’n’ ta’rtipli ha’reketi.on’ ionlardi’n’ ta’rtipli ha’reketi.",
+    d: "on’ ionlardi’n’ ta’rtipli ha’reketi."
+  },
+  {
+    quostion: "Ha’lsiz tokti’ o’lsheytug’i’n quri’lma ne dep ataladi’?",
+    a: "galvanometr.",
+    b: "barometr.",
+    c: "termometr.",
+    d: "tranzistor."
+  },
+  {
+    quostion: "Uzi’nli’g’i’ 10 sm bolg’an o’tkizgishke 0,05 N ku’sh ta’sir etetug’i’n magnit maydan indukciyasi’n ani’qlan’. O’tkizgishtegi tok ku’shi 25",
+    a: "O’tkizgish magnit maydan indukciyasi’na perpendikulyar jaylasqan. || 0,02 Tl",
+    b: "0,02 Tl",
+    c: "0,01 Tl",
+    d: "0,002 Tl"
+  },
+  {
+    quostion: "O’tkizgishtegi tok ku’shi 50 A, magnit indukciya vektori’ 0,01 Tl, uzi’nli’g’i’ 20 sm bolg’an o’tkizgishke magnit maydan qanday ku’sh penen ta’sir etedi? Maydan indukciya si’zi’qlari’ ha’m ag’i’m o’z-ara perpendikulyar.",
+    a: "0,1 N",
+    b: "0,01 N",
+    c: "0,02 N",
+    d: "0,03 N"
+  },
+  {
+    quostion: "Elektron magnit maydang’a 10 Mm/s tezlikte ushi’p kiredi, maydan indukciyasi’ 0,6 Tl, maydanni’n’ elektrong’a ta’sir etetug’i’n ku’shi 0,4 pN. Elektron magnit indukciya si’zi’qlari’na qanday mu’yesh asti’nda ushi’b kirgen.",
+    a: "24,6",
+    b: "2,46",
+    c: "49,2",
+    d: "4,92"
+  },
+  {
+    quostion: "Ha’reketleniwshi zaryadlang’an bo’lekshege magnit maydan ta’repinen ta’sir etetug’i’n ku’sh formulasi’n ko’rsetin’.",
+    a: "F=qvB sina",
+    b: "F=Iql sina",
+    c: " F=ma",
+    d: "F=vBl sina"
+  },
 ];
 
 answersDB().forEach((item, index) => {
@@ -97,7 +243,7 @@ answersDB().forEach((item, index) => {
       <span class="quostion-text">${index + 1}. ${item.quostion}</span>
             <li class="test-item">
               <label>
-                <input type="radio" name="${index}" checked> ${item.a}
+                <input type="radio" name="${index}"> ${item.a}
               </label>
             </li>
             <li class="test-item">
